@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>DSB Mini Demo</title>
+<style>
+body { text-align:center; background:#eef; font-family:sans-serif; }
+button { padding:20px; font-size:20px; margin-top:40px; }
+.hero { margin:30px auto; width:120px;height:120px;background:gold;border-radius:10px;display:flex;justify-content:center;align-items:center;font-size:30px;font-weight:bold; }
+</style>
+</head>
+<body>
+<h1>DSB Mini Demo</h1>
+<div class="hero">DSB</div>
+<button onclick="document.getElementById('msg').innerHTML='🔥 Demo çalıştı!';">Start</button>
+<p id="msg"></p>
+</body>
+</html>
